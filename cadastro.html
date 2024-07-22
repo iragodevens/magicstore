@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="cadastro.css">
+</head>
+<body>
+    <div id="container">
+        <header><!-- cabeçario -->
+            <div id="logo">
+                <h1><a href="">Magic Store</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="ecomerce.html">Home</a></li>
+                    <li><a href="#">Lançamentos</a></li>
+                    <li><a href="#">Roupas</a></li>
+                    <li><a href="#">Tênis</a></li>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Promoção</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Cadastro</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="conteudo">
+          <section id="capa">
+             <img width="1909px" height="400" src="IMG/logo00.webp">
+          </section>
+        </div>
+
+
+        <div class="form">
+            <p class="mygroup"><h2>Faça seu cadastro na Magic Store</h2></p>
+            <form>
+                <p><label>Nome:</label>
+                    <input type="text" size="60" name="nome" placeholder="Digite somente seu nome."></p>
+                <p><label>Sobrenome:</label>
+                    <input type="text" size="60" name="sobrenome" placeholder="Digite seu sobrenome."></p>
+                <p><label>CPF:</label>
+                    <input type="text" size="60" name="cpf" placeholder="Seu CPF, apenas números. "></p>
+                <p><label>E-mail:</label>
+                    <input type="email" size="60" name="email" placeholder="Digite seu email."></p>
+                <p><label>Endereço:</label>
+                    <input type="text" size="60" name="endereço" placeholder="Apenas a rua e o número."></p>
+                <p><label>Bairro:</label>
+                    <input type="text" size="20" name="bairro" placeholder="Seu bairro.">
+                    <label>Cidade:</label>
+                    <input type="text" size="20" name="cidade" placeholder="Cidade que reside."></p>
+                <p><label>CEP:</label>
+                    <input type="text" size="20" placeholder="CEP da sua rua">
+                    <label>UF:</label> 
+                    <select id="uf">
+                        <option value="ba">BA</option> 
+                    </select></p>
+                <p><label>Data de Nascimento:</label>
+                    <input type="date" name="nascimento">
+                    <label>Sexo:</label>
+                    <select id="Sexo">
+                        <option value="mas">MASCULINO</option>
+                        <option value="fem">FEMININO</option> 
+                    </select></p>
+                <p><label>Celular:</label>
+                    <input type="tel" size="20" name="cel" placeholder="Seu número de celular.">
+                    </select></p>
+                <p><label>Login:</label>
+                    <input type="text" size="20" name="login" placeholder="Seu email."></p>
+                <p><label>Senha:</label>
+                    <input type="password" size="20" name="senha" placeholder="No minimo 10 caracteres."></p>
+                <hr>
+                <p><input button class="botão" type="submit" value="Confirmar">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
